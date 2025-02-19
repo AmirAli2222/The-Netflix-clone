@@ -1,0 +1,106 @@
+.header_outer_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(20,20,20);
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition:all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+}
+/* .nav_black{
+    background-color: rgb(20,20,20);
+}
+.header_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+} */
+/* Sticky Header */
+.header_outer_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);  /* Transparent background */
+    height: 10vh;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+    z-index: 1000;
+}
+
+/* When user scrolls, change background */
+.nav_black {
+    background-color: rgb(20, 20, 20);
+}
+
+/* Main header container */
+.header_container {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    /* background-color: rgb(20,20,20); */
+}
+
+/* Left Section */
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_left .logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.header_left ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.header_left li {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header_left li:hover {
+    color: red;
+}
+
+/* Right Section (Icons) */
+.header_right ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.header_right li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    transition: opacity 0.3s ease;
+}
+
+.header_right li:hover {
+    opacity: 0.7;
+}
