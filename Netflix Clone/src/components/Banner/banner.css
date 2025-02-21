@@ -3,6 +3,7 @@
     height: 80vh;
     color: white;
     object-fit: contain;
+    /* display: flex; */
 }
 .banner__contents {
     margin-left: 30px;
