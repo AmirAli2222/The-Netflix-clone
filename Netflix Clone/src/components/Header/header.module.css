@@ -12,7 +12,7 @@
     transition-timing-function: ease-in;
     z-index: 1;
 }
-/* .nav_black{
+.nav_black{
     background-color: rgb(20,20,20);
 }
 .header_container{
@@ -21,8 +21,8 @@
     justify-content: space-between;
     align-items: center;
 
-} */
-/* Sticky Header */
+} 
+Sticky Header
 .header_outer_container {
     position: fixed;
     top: 0;
@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);  /* Transparent background */
+    background-color: rgba(0, 0, 0, 0.7);  
     height: 10vh;
     color: white;
     transition: background-color 0.5s ease-in-out;
@@ -50,7 +50,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    /* background-color: rgb(20,20,20); */
+    background-color: rgb(20,20,20);
 }
 
 /* Left Section */
@@ -103,4 +103,51 @@
 
 .header_right li:hover {
     opacity: 0.7;
+}
+
+/* Tablets & Small Screens */
+@media (max-width: 1024px) {
+    .header_container {
+        width: 90%;
+    }
+
+    .header_left ul {
+        gap: 15px;
+        font-size: 13px;
+    }
+}
+
+/* Mobile Screens */
+@media (max-width: 768px) {
+    .header_container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .header_left ul {
+        display: none; /* Hide menu items on mobile */
+    }
+
+    .header_right ul {
+        gap: 10px;
+    }
+
+    .header_left .logo {
+        width: 100px; /* Adjust logo size */
+    }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 480px) {
+    .header_container {
+        padding: 8px;
+    }
+
+    .header_right ul {
+        gap: 8px;
+    }
+
+    .header_left .logo {
+        width: 90px; /* Further reduce logo size */
+    }
 }

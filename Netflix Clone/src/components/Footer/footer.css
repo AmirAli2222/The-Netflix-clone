@@ -42,3 +42,56 @@
     font-size: 12px;
     margin-bottom: 10px;
 }
+@media (max-width: 1024px) {
+    .footer_inner_container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer_inner_container {
+        width: 90%;
+    }
+
+    .footer_data {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .footer_data ul {
+        height: auto;
+    }
+
+    .service_code {
+        width: 80%;
+    }
+
+    .copy-write {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer_inner_container {
+        width: 95%;
+    }
+
+    .footer_icons {
+        gap: 10px;
+    }
+
+    .footer_icons svg {
+        font-size: 20px;
+    }
+
+    .footer_data ul li {
+        font-size: 14px;
+    }
+
+    .service_code {
+        width: 90%;
+        padding: 8px;
+        font-size: 14px;
+    }
+}

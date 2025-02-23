@@ -1,9 +1,12 @@
 .banner{
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     height: 80vh;
-    color: white;
-    object-fit: contain;
+    /* color: white;
+    object-fit: contain; */
     /* display: flex; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
 }
 .banner__contents {
     margin-left: 30px;

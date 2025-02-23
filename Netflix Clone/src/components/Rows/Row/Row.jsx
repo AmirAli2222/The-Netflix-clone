@@ -57,7 +57,7 @@ export const Row = ({ title, fetchUrl, isSmall }) => {
               isSmall ? movie.poster_path : movie.backdrop_path
             }`}
             alt={movie.name}
-            // className={`row__poster ${isSmall && "row__posterLarge"}`}
+            className={`row__poster ${isSmall && "row__posterLarge"}`}
           />
         ))}
       </div>
@@ -71,4 +71,5 @@ Row.propTypes = {
   title: PropTypes.string.isRequired,
   fetchUrl: PropTypes.string.isRequired,
   isLargeRow: PropTypes.bool,
+  isSmall: PropTypes.bool,
 }
