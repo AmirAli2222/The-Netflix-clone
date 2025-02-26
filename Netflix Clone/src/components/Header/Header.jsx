@@ -1,42 +1,4 @@
-// import React from 'react'
-// import styles from "./header.module.css";
-// import NetflixLogo from "../../assets/images/logo.png"
-// import SearchIcon from '@mui/icons-material/Search';
-// import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
-
-// const Header = () => {
-//   return (
-//     <div className={styles.header_outer_container}>
-//       <div className={styles.header_container}>
-//         <div className={styles.header_left}>
-//           <ul>
-//             <li><img src={NetflixLogo} alt="Netflix logo" width="100"/></li>
-//             <li>Home</li>
-//             <li>TVShows</li>
-//             <li>Movies</li>
-//             <li>Latest</li>
-//             <li>MyList</li>
-//             <li>Browse by language</li>
-//           </ul>
-//         </div>
-//         <div className={styles.header_right}>
-//           <ul>
-//             <li>SearchIcon</li>
-//             <li>Home</li>
-//             <li>NotificationsNoneIcon</li>
-//             <li>AccountBoxIcon</li>
-//             <li>ArrowDropDownIcon</li>
-//             <li>MyList</li>
-//             <li>Browse by language</li>
-//           </ul>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Header
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styles from "./header.module.css";
 import NetflixLogo from "../../assets/images/logo.png";
 import SearchIcon from "@mui/icons-material/Search";
